@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: EcoMind/jenkins-agent-shellcheck
+  IMAGE_NAME: jenkins-agent-shellcheck
 
 jobs:
   # Push image to GitHub Packages.
