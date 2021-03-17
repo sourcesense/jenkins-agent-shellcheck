@@ -42,5 +42,5 @@ COPY --from=yq-downloader --chown=1000:1000 /usr/local/bin/yq /usr/local/bin/yq
 
 USER 1000
 
-RUN ./dep-bootstrap.sh 0.4.1 install
+RUN ./dep-bootstrap.sh 0.5.1 install
 
